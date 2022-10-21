@@ -15,11 +15,21 @@ public class TP2_Bieres_COURTEL {
      */
     public static void main(String[] args) {
     
-        BouteilleBiere uneBiere = new BouteilleBiere(" Cuvée des trolls ",7.0," Dubuisson " ) ;
+        BouteilleBiere uneBiere = new BouteilleBiere(" Cuvee des trolls ",7.0," Dubuisson " ) ;
         uneBiere.lireEtiquette() ;
         
         BouteilleBiere unedeuxiemeBiere = new BouteilleBiere(" Leffe ", 6.6, " Abbaye de Leffe " ) ;
         unedeuxiemeBiere.lireEtiquette() ;
+        
+        BouteilleBiere une3Biere = new BouteilleBiere( "Heineken", 5.0, "Cuvée Heineken");
+        une3Biere.lireEtiquette() ;
+        
+        BouteilleBiere une4Biere = new BouteilleBiere("Chouffe", 8.0, "Chouffe");
+        une4Biere.lireEtiquette() ;
+                
+        BouteilleBiere une5Biere = new BouteilleBiere("Cap dona", 7.0, "Cap Dona");
+        une5Biere.lireEtiquette() ;
+        
     }
     
 }
