@@ -22,7 +22,7 @@ public class BouteilleBiere {
  
     }
     
-    public BouteilleBiere(String unNom, float unDegre, String 
+    public BouteilleBiere(String unNom, double unDegre, String 
         
             uneBrasserie) {
             nom = unNom;
