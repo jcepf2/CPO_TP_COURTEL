@@ -13,7 +13,7 @@ public class BouteilleBiere {
     String nom ;
     double degreAlcool ;
     String brasserie ;
-    Boolean ouverte ;
+    boolean ouverte ;
     
     public void lireEtiquette() {
         
