@@ -19,22 +19,22 @@ public class TP2_convertisseurObjet_COURTEL {
         Convertisseur temp = new Convertisseur() ;
         
         double result1 = temp.CelciusVersKelvin(50);
-        System.out.println(result1) ;
+        System.out.println(result1 + "K") ;
         
         double result2 = temp.KelvinVersCelcius(150);
-        System.out.println(result2) ;
+        System.out.println(result2 + "°C") ;
         
         double result3 = temp.KelvinVersFarenheit(100);
-        System.out.println(result3) ;
+        System.out.println(result3 + "°F") ;
         
         double result4 = temp.FarenheitVersKelvin(30);
-        System.out.println(result4) ;
+        System.out.println(result4 + "K") ;
         
         double result5 = temp.CelciusVersFarenheit(84);
-        System.out.println(result5) ;
+        System.out.println(result5 + "°F") ;
         
         double result6 = temp.FarenheitVersCelcius(45);
-        System.out.println(result6) ;
+        System.out.println(result6 + "°C") ;
     }
 }
  
