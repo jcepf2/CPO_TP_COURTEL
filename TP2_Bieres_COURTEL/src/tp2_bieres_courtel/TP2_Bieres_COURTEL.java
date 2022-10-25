@@ -17,29 +17,35 @@ public class TP2_Bieres_COURTEL {
     
         BouteilleBiere uneBiere = new BouteilleBiere(" Cuvee des trolls ",7.0," Dubuisson " ) ;
         uneBiere.lireEtiquette() ;
-        uneBiere.Decapsuler() ;
+        
+        System.out.println(uneBiere) ; 
         
         BouteilleBiere unedeuxiemeBiere = new BouteilleBiere(" Leffe ", 6.6, " Abbaye de Leffe " ) ;
         unedeuxiemeBiere.lireEtiquette() ;
-        unedeuxiemeBiere.Decapsuler() ;
+        
+        System.out.println(unedeuxiemeBiere) ; 
         
         BouteilleBiere une3Biere = new BouteilleBiere( "Heineken", 5.0, "Cuvee Heineken");
         une3Biere.lireEtiquette() ;
-        une3Biere.Decapsuler() ;
+        System.out.println(une3Biere) ; 
         
         BouteilleBiere une4Biere = new BouteilleBiere("Chouffe", 8.0, "Chouffe");
         une4Biere.lireEtiquette() ;
-        une4Biere.Decapsuler() ;
+        
+        System.out.println(une4Biere) ; 
                 
-        BouteilleBiere une5Biere = new BouteilleBiere("Cap dona", 7.0, "Cap Dona");
+        BouteilleBiere une5Biere = new BouteilleBiere("Dodo", 6.5, "Bourbon");
         une5Biere.lireEtiquette() ;
-        une5Biere.Decapsuler() ;
         
-        system.out.println(uneBiere) ; 
+        System.out.println(une5Biere) ;         
         
-        boolean test ;
-        test = uneBiere.Décapsuleur():
-        system.out.println(uneBiere)
+        boolean variable ;
+       
+        variable = uneBiere.Decapsuler() ;
+        
+        System.out.println(variable) ;
+        System.out.println(uneBiere) ;
+          
     }
     
     
