@@ -36,5 +36,6 @@ public class TP2_convertisseurObjet_COURTEL {
         double result6 = temp.FarenheitVersCelcius(45);
         System.out.println(result6 + "°C") ;
     }
+    
 }
  
