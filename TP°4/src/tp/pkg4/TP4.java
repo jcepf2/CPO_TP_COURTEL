@@ -71,4 +71,27 @@ System.out.println(n_Arme.get(taille-1));
         System.out.println(n_Personnage.get(i)+", ");
     }
     }
+
+    Guerrier Guerrier3 = new Guerrier ("Henry", 85, false);
+    bâton bâton3 = new bâton ("brindille",4, 3);
+    Magicien Magicien = new Magicien ("Tom",69, false);
+    bâton bâton4 = new bâton ("branche", 2, 4);
+    bâton bâton5 = new bâton ("fleur", 1, 2);
+    épée épée3= new épée ("Oli", 1, 2);
+    épée épée4= new épée ("Dura", 1, 2);
+    épée épée5= new épée ("poi", 1, 2);
+
+    Guerrier3.Ajouter_Arme(bâton3) ;
+    Guerrier3.Ajouter_Arme(épée3) ;
+    Guerrier3.Ajouter_Arme(épée4) ;
+
+    Magicien3.Ajouter_Arme(bâton4) ;
+    Magicien3.Ajouter_Arme(épée5) ;
+    Magicien3.Ajouter_Arme(épée5) ;
+    
+    
+System.out.println(x:n Arme.get(taille-1)) ;
+System.out.println(x:n Personnage.get(taille-1)) ;
+
+    
 }
